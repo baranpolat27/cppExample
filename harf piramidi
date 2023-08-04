@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+char i;
+cout<< "lutfen bir karakter giriniz: "<<endl;
+cin>>i;
+int x=i;
+
+for(int a=1;a<10;a++){
+    int x=i;
+    int y=i;
+    for(int b=1;b<=a;b++){
+        cout<<(char)x;
+        x++;
+    }
+    for(;x!=y-1;x--){
+        cout<<(char)x;
+    }
+    cout<<endl;
+}
+    
+    return 0;
+}
